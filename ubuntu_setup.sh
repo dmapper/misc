@@ -35,9 +35,9 @@ echo 'PasswordAuthentication no' >> /etc/ssh/sshd_config
 
 # Print private key to connect to the server
 echo ''
-echo '/-------------------------------------------------\'
-echo '|   !! Save the following key into server.pem !!  |'
-echo '\-------------------------------------------------/
+echo '/----------------------------------------------------\'
+echo '|   !! Save the following key into MY_SERVER.pem !!  |'
+echo '\----------------------------------------------------/
 echo ''
 cat /home/ubuntu/.ssh/authorized_keys
 echo ''
