@@ -28,3 +28,4 @@ npm install -g forever grunt-cli
 
 # Generate keys
 su ubuntu -c 'ssh-keygen'
+cat id_rsa.pub > known_hosts
