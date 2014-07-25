@@ -39,7 +39,7 @@ echo '/----------------------------------------------------\'
 echo '|   !! Save the following key into MY_SERVER.pem !!  |'
 echo '\----------------------------------------------------/
 echo ''
-cat /home/ubuntu/.ssh/authorized_keys
+cat /home/ubuntu/.ssh/id_rsa
 echo ''
 echo 'Installation finished! Next steps:
 echo '1. Copy-paste the private key printed higher into MY_SERVER.pem on your computer'
