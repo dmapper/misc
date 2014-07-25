@@ -45,7 +45,7 @@ echo 'Installation finished! Next steps:
 echo '1. Copy-paste the private key printed higher into MY_SERVER.pem on your computer'
 echo "2. You'll be able to ssh into server with:"
 echo '   $ ssh -i /path/to/MY_SERVER.pem ubuntu@SERVER_IP'
-echo "3. You can run root commands with sudo when you need (doesn't require password)."
+echo "3. You can run root commands with 'sudo' when you need (doesn't require password)."
 echo "4. If you want to become root, run:"
 echo '   $ sudo -i'
 echo "5. Now reboot the server with 'reboot',"
