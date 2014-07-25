@@ -29,3 +29,27 @@ npm install -g forever grunt-cli
 # Generate keys
 su ubuntu -c 'ssh-keygen'
 su ubuntu -c 'cat ~/.ssh/id_rsa.pub > ~/.ssh/authorized_keys'
+
+# Prevent users from logging in with password. Allow only private keys auth.
+echo 'PasswordAuthentication no' >> /etc/ssh/sshd_config
+
+# Print private key to connect to the server
+echo ''
+echo '/-------------------------------------------------\'
+echo '|   !! Save the following key into server.pem !!  |'
+echo '\-------------------------------------------------/
+echo ''
+cat /home/ubuntu/.ssh/authorized_keys
+echo ''
+echo 'Installation finished! Next steps:
+echo '1. Copy-paste the private key printed higher into MY_SERVER.pem on your computer'
+echo "2. You'll be able to ssh into server with:"
+echo '   $ ssh -i /path/to/MY_SERVER.pem ubuntu@IP_ADDRESS'
+echo '   where IP_ADDRESS -- ip of your server'
+echo "3. You can run root commands with sudo when you need (doesn't require password)."
+echo "4. If you want to become root, run:"
+echo '   $ sudo -i'
+echo "5. Now reboot the server with 'reboot',"
+echo "   wait a while until it reboots,"
+echo "   then ssh into it as told in item 2 of this list"
+echo "   and continue to setting it up for deployment."
