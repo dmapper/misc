@@ -1,4 +1,5 @@
 #!/bin/sh
+# Author: Pavel Zhukov <cray0000@gmail.com>
 
 # Add 'ubuntu' user and allow it to run 'sudo' with no password
 adduser ubuntu
