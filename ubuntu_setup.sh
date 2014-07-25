@@ -1,5 +1,5 @@
 #!/bin/sh
-# Script to setup a VPS/cloud server to be ready for use with Derby.js
+# Script to setup an Ubuntu VPS/cloud server to be ready for use with Derby.js
 # Author: Pavel Zhukov <cray0000@gmail.com>
 
 # Add 'ubuntu' user and allow it to run 'sudo' with no password
