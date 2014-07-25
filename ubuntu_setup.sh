@@ -41,7 +41,7 @@ echo '\----------------------------------------------------/
 echo ''
 cat /home/ubuntu/.ssh/id_rsa
 echo ''
-echo 'Installation finished! Next steps:
+echo 'Installation finished! Next steps:'
 echo '1. Copy-paste the private key printed higher into MY_SERVER.pem on your computer'
 echo "2. You'll be able to ssh into server with:"
 echo '   $ ssh -i /path/to/MY_SERVER.pem ubuntu@SERVER_IP'
