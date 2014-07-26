@@ -1,5 +1,7 @@
 #!/bin/sh
 # Script to setup an Ubuntu VPS/cloud server to be ready for use with Derby.js
+# Should be run on a newly created server under root.
+# Configuration used for testing: Ubuntu 14.04 x64 of Digital Ocean
 # Author: Pavel Zhukov <cray0000@gmail.com>
 
 # Add 'ubuntu' user and allow it to run 'sudo' with no password
