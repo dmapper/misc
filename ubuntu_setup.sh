@@ -27,7 +27,7 @@ add-apt-repository ppa:nginx/stable
 
 # Install everything
 apt-get update
-apt-get install nodejs redis-server mongodb-org nginx
+apt-get install git nodejs redis-server mongodb-org nginx
 npm install -g forever grunt-cli
 
 # Generate keys
