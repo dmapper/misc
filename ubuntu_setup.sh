@@ -41,7 +41,7 @@ echo 'PasswordAuthentication no' >> /etc/ssh/sshd_config
 echo ''
 echo '/----------------------------------------------------\'
 echo '|   !! Save the following key into MY_SERVER.pem !!  |'
-echo '\----------------------------------------------------/
+echo '|----------------------------------------------------|
 echo ''
 cat /home/ubuntu/.ssh/id_rsa
 echo ''
